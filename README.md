@@ -17,3 +17,9 @@ npm test
 `supabase/migrations/` holds the schema of the playground database (one `contacts` table with
 sample rows). New migrations arrive in pull requests and are applied to the **test** project
 first; the playground project changes only when a person applies them.
+
+## How changes work
+
+- The AI opens a pull request.
+- A person reviews the diff.
+- Only a person merges.
