@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <section>
@@ -5,6 +7,9 @@ export default function Home() {
       <p>
         This is a small Next.js site that The Sitdown&apos;s AIs can change through pull requests. Every change is
         reviewed by a person before it reaches the main branch.
+      </p>
+      <p>
+        <Link href="/contact">Contact us</Link>
       </p>
     </section>
   );
